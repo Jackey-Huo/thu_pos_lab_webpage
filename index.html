@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" type="image/x-icon" href="./public/icon/favicon.ico" />
+        <title>清华大学电路原理开放实验室</title>
+        <link href="./publish/eea/css/common.css" type="text/css" rel="stylesheet" />
+        <link href="./publish/eea/css/grid.css" rel="stylesheet" type="text/css" />
+        <script src="./public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+        <script language="javascript" type="text/javascript">
+/*
+ *截取信息简介
+ *summaryStr:String 信息简介
+ *lengTh:int 截取的长度
+ */
+        function cutSummary(summaryStr, lengTh) {
+            if (summaryStr.length > lengTh) {
+                summaryStr = summaryStr.substring(0, lengTh) + "...";
+            }
+            document.write(summaryStr);
+        }
+/*
+ *jQuery:所有外域链接在新窗口打开
+ */
+$(document).ready(
+        function() {
+            $("a[href*='http://']:not([href*='" + location.hostname
+                    + "']),[href*='https://']:not([href*='"
+                    + location.hostname + "'])").addClass("external")
+                .attr("target", "_blank")
+        });
+        </script>
+        <SCRIPT language="JavaScript" src="./public/plugin/source/global.js"></SCRIPT>
+        <!-- 导航下拉菜单 -->
+        <link type="text/css" rel="stylesheet" href="./public/plugin/source/nav/css/mt_dropdown.css" />
+
+        <SCRIPT language="JavaScript" src="./public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+        <SCRIPT language="JavaScript" src="./public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+        <script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+    window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+    init();
+
+});
+
+//-->
+        </script>
+
+
+        <!-- 导航下拉菜单 -->
+        <link href="./publish/eea/css/style_index.css" rel="stylesheet"  type="text/css" />
+        <SCRIPT language="JavaScript" src="./public/plugin/source/global_index.js"></SCRIPT>
+    </head>
+    <body>
+        <!--container开始处-->
+        <div id="container">
+            <!--header开始处-->
+            <div id="header">
+                <!--logo开始处-->
+                <div id="logo">
+                    <h1>THU 电路原理开放实验室
+                        <span>Open laborytary of Principles of Electric Circuits</span>
+                    </h1>
+                </div>
+                <!--logo结束处-->
+                <!--search开始处-->
+                <div id="search">
+                    <form id="searchForm" action="#" method="post" target="_blank" >
+                        <input type="hidden" id="searchVpath" name="vpath" value=""/>
+                        <p>
+                        <a href="./publish/eeaen/index.html">English Version</a> 
+                        <span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+                        搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+                        <input type="text" name="Q" tabindex="1" class="sch" />
+                        </p>
+                    </form>  
+                </div>
+                    <!--search结束处-->
+            </div>  <!--header结束处-->
+            <!--content开始处-->
+            <div id="content">
+                <!--left开始处-->
+                <div id="left">
+                    <!--nav开始处-->
+                    <SCRIPT language="JavaScript">
+function initMenuData(){
+    if (mtDropDown.isSupported()) {
+        var ms = new mtDropDownSet(mtDropDown.direction.right, 0, 0, mtDropDown.reference.topRight);
+        var menu1339 = ms.addMenu(document.getElementById("menu_1339"));
+        menu1339.addItem("testing menu","./publish/eea/1341/index.html","");
+        menu1339.addItem("testing menu","./publish/eea/1359/index.html","");
+        menu1339.addItem("testing menu","./publish/eea/1361/index.html","");
+        menu1339.addItem("testing menu","./publish/eea/1361/index.html","");
+        var menu1363 = ms.addMenu(document.getElementById("menu_1363"));
+        menu1363.addItem("testing menu","./publish/eea/1364/index.html","");
+        menu1363.addItem("testing menu","./publish/eea/1366/index.html","");
+        var menu1367 = ms.addMenu(document.getElementById("menu_1367"));
+        menu1367.addItem("testing menu","./publish/eea/1369/index.html","");
+        menu1367.addItem("testing menu","./publish/eea/9505/index.html","");
+        menu1367.addItem("testing menu","./publish/eea/1370/index.html","");
+        menu1367.addItem("testing menu","./publish/eea/1371/index.html","");
+        menu1367.addItem("testing menu","./publish/eea/8898/index.html","");
+        var menu1372 = ms.addMenu(document.getElementById("menu_1372"));
+        menu1372.addItem("testing menu","./publish/eea/1373/index.html","");
+        menu1372.addItem("testing menu","./publish/eea/1374/index.html","");
+        menu1372.addItem("testing menu","./publish/eea/1376/index.html","");
+        var menu1381 = ms.addMenu(document.getElementById("menu_1381"));
+        menu1381.addItem("testing menu","./publish/eea/1383/index.html","");
+        menu1381.addItem("testing menu","./publish/eea/1384/index.html","");
+        menu1381.addItem("testing menu","./publish/eea/1386/index.html","");
+        menu1381.addItem("testing menu","./publish/eea/1387/index.html","");
+        menu1381.addItem("testing menu","./publish/eea/1388/index.html","");
+        mtDropDown.renderAll();
+    }
+} 
+                    </SCRIPT>
+                    <div class="menu">
+                        <!-- @TODO replace all the button and link -->
+                        <ul>
+                            <li><a href="./index.html" title="清华大学电路原理开放实验室">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+                            <li id="menu_1339"><a href="./publish/eea/lab_introduction/index.html" title="实验室介绍">实验室介绍</a>
+                            </li>
+                            <li id="menu_1363"><a href="./publish/eea/instrument_instructions/index.html" title="仪器说明">仪器说明</a>
+                            </li>
+                            <li id="menu_1367"><a href="./publish/eea/open_experiment/index.html" title="开放型实验">开放型实验</a>
+                            </li>
+                            <li id="menu_1372"><a href="./publish/eea/course_elect/index.html" title="选课情况">选课情况</a>
+                            </li>
+                            <li id="menu_1381"><a href="./publish/eea/stu_teach_communication/index.html" title="师生交流">师生交流</a>
+                            </li>
+                            <li class="nav_down"></li>
+                        </ul>
+                        <span></span>
+                    </div>
+                    <script language="JavaScript">initMenuData();</script>    
+                    <!--nav结束处-->
+                </div>
+                <!--left结束处-->
+                <!--right开始处-->
+                <div id="right">
+                    <!--news_list开始处-->
+                    <div id="news_list">
+                        <!--big_img开始处-->
+                        <div id="big_img">
+                            <script type="text/javascript" src="./publish/eea/js/sliderman.1.1.1.js"></script>
+                            <link rel="stylesheet" type="text/css" href="./publish/eea/css/sliderman.css" />
+                            <script type="text/javascript">
+$(document).ready(function(){
+    effectsDemo2 = 'rain,stairs,fade';
+    var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 334, height: 241, effects: effectsDemo2,
+        display: {
+            autoplay: 3000,
+            loading: {background: '#000000', opacity: 0.5, image: './publish/eea/images/loading.gif'},
+            buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
+            description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
+            navigation: {container: 'SliderNameNavigation_2', label: '<img src="./publish/eea/images/clear.gif" />'}
+        }
+    });
+});
+
+                            </script>
+                            <div id="SliderName_2" class="SliderName_2">
+                                <a href="./publish/eea/1474/2015/20150426125528683916867/20150426125528683916867_.html">
+                                    <img src="./publish/eea/news/20150426125528683916867/20150426125613392266193.jpg" width="334" height="241" alt="testing messages for news" usemap="#img1map" /></a>
+                                <div class="SliderName_2Description"><strong>testing messages for news...</strong></div>
+                                <a href="./publish/eea/1474/2015/20150121154641094381111/20150121154641094381111_.html">
+                                    <img src="./publish/eea/1474/20150121154641094381111/20150121154905502346675.jpg" width="334" height="241" alt="testing messages for news" usemap="#img1map" /></a>
+                                <div class="SliderName_2Description"><strong>testing messages for news</strong></div>
+                                <a href="./publish/eea/1474/2014/20141021091420448812751/20141021091420448812751_.html">
+                                    <img src="./publish/eea/1474/20141021091420448812751/20141021091626322981166.jpg" width="334" height="241" alt="testing messages for news" usemap="#img1map" /></a>
+                                <div class="SliderName_2Description"><strong>testing messages for news...</strong></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div id="SliderNameNavigation_2"></div>
+                            <div class="clear"></div>    </div>
+                        <!--big_img结束处-->
+                        <div id="wenzi_list">
+                            <h3>&nbsp;<a href="./publish/eea/news/index.html">新&nbsp;&nbsp;闻</a>&nbsp;</h3>
+                            <ul>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for news">testing messages for news...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for news">testing messages for news...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for news">testing messages for news...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for news">testing messages for news...</A><b>2017-01-12</b></li>
+                            </ul>
+                        </div>
+
+                        <div id="wenzi_list">
+                            <h3 style="margin-top:10px;">&nbsp;<a href="./publish/eea/1395/index.html">学术报告</a>&nbsp;</h3>
+                            <ul>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for academic report">testing messages for academic report...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for academic report">testing messages for academic report...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for academic report">testing messages for academic report...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for academic report">testing messages for academic report...</A><b>2017-01-12</b></li>
+                                <li><A href="./publish/eea/news/news_and_academic_template/template.html" title="testing messages for academic report">testing messages for academic report...</A><b>2017-01-12</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--news_list结束处-->    
+            </div>
+            <!--right结束处-->
+
+            <!--down_nav开始处-->
+            <div id="down_nav">
+            </div>
+            <!--down_nav结束处-->
+        </div>
+        <!--content结束处-->
+        <!--footer开始处-->
+        <div id="footer">
+            <p>
+            <br/>
+            </p>
+            <p style="color:#000000">
+            清华大学电路原理开放实验室 版权所有 2017
+            </p>
+            <p style="color:#000000">
+			地址：北京清华大学中央主楼 &nbsp;&nbsp; 邮编：100084
+			</p>
+			<p style="color:#000000">
+			<a href="mailto:lzhen@tsinghua.edu.cn">E-mail：lzhen@tsinghua.edu.cn</a>
+            </p>
+        </div>  <!--footer结束处-->
+        </div>
+        <!--container结束处-->
+    </body>
+</html>
